@@ -1,9 +1,12 @@
 h1 {
+	text-align: center;
 	color: dimgrey;
 	font-family: 'Rubik Mono One', sans-serif;
 	font-size: 50px;
+	background-color: rgb(203, 255, 203);
 }
 
-/*canvas {
+body {
+	justify-content: center;
 	border: 10px dotted gainsboro;
-}*/
+}
