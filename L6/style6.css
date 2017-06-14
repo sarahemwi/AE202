@@ -1,0 +1,51 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Patua One', cursive;
+
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner {
+	width: 100vw;
+}
+
+#banner img {
+	width: 100vw;
+}
+
+#content {
+	padding: 5vw;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-family: 'Patua One', cursive;
+}
+
+#content p {
+	width: 40vw;
+}
+
+.box {
+  border: 1px solid gainsboro;
+  width: 26%;
+  height: 26%;
+}
+
+.box img{
+	width: 100%;
+}
+
+.box img:hover {
+	width: 120%;
+}
+
+#support {
+	width: 100%;
+}

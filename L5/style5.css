@@ -1,0 +1,47 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Patua One', cursive;
+
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner {
+	width: 100%;
+}
+
+#banner img {
+	width: 100%;
+}
+
+#images {
+	width: 100%;
+	justify-content: space-around;
+	padding: 2%;
+}
+
+#images img {
+	width: 20%;
+}
+
+#images img:hover {
+	transforn: scale(1.25);
+}
+
+#content {
+	padding: 5%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-family: 'Patua One', cursive;
+}
+
+#content p {
+	width: 40%;
+}

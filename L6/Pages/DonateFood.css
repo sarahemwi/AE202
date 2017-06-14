@@ -1,0 +1,21 @@
+#percentage {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 300px;
+}
+
+#bar {
+  width: 500px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+#progress {
+  height: 100%;
+  border-radius: 25px;
+  background-color: grey;
+  width: 10%;
+}
